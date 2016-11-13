@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>en-wysiwyg example</title>
+</head>
+<body>
+	<div class="container">
+		
+	</div>
+</body>
+<script type="text/javascript" src="en-wysiwyg.js"></script>
+<script type="text/javascript">
+	
+	window.onload = function(){
+		var obj = new Wysiwyg({
+			width: '600px',
+			height: '450px',
+			container: '.container'
+		});
+
+		obj.init();
+	}
+
+</script>
+</html>
